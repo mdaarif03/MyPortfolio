@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
   --dark-2: #161616;
   --text_blue: #3dcfd3;
@@ -164,3 +165,158 @@ span img {
   height: 60px;
   /* border: 1px solid black; */
 }
+=======
+:root{
+    --dark-2 : #161616;
+    --text_blue : #3DCfd3;
+    --back_blue : #06bcc2e7;
+
+}
+
+body{
+    /* background: var(--back_blue); */
+    color: black;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background: var(--dark-2) !important;
+    /* height: 80px; */
+    line-height: 70px;
+    height: 100vh;
+    clip-path: polygon(0 0 , 100% 0 , 100% 80% , 0 100% );
+
+}
+
+.sig-img{
+    width: unset;
+    line-height: unset;
+    height: 80px;
+    /* display: ; */
+}
+
+.sig-img img{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    transform: scale(1.2);
+}
+
+nav{
+    /* background: var(--dark); */
+    max-width: 950px;
+    margin: 0 auto;
+    height: 80px;
+    /* border: 1px dashed white; */
+}
+
+nav a{
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: aqua;
+}
+
+.head-div{
+    display: inline-block;
+    width: 48%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.right{
+    vertical-align: top;
+    height: 100%;
+    position: relative;
+}
+
+.content{
+    margin: auto;
+    position: absolute;
+    right: 100px;
+    top: 50%;
+    transform: translateY(-100%);
+}
+
+.name{
+    font-size:50px;
+    text-align: right;
+}
+
+.name span{
+    /* color: var(--text_blue); */
+    color: deeppink;
+    display: block;
+    font-size: 60px;
+}
+
+.headline{
+    font-size: 20px;
+    text-align: right;
+}
+
+
+.about{
+    height: 100vh;
+    text-align: center;
+    /* background-color: var(--text_blue); */
+}
+
+.about-head{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.about-head span{
+    /* color: var(--text_blue); */
+    
+}
+
+.ab-text{
+    width: 48%;
+    display: inline-block;
+    padding: 0 10px;
+    margin: 20px auto;
+    text-align: justify;
+    vertical-align: top;
+    position: relative;
+    height: 100%;
+}
+
+.text{
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+.ab-img{
+    display: inline-block;
+
+}
+
+.skill-img{
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+    
+}
+
+.skill-imgs{
+    padding-top: 20px;
+}
+
+span img{
+    display: inline-block;
+    height: 60px;
+    /* border: 1px solid black; */
+}
+
+>>>>>>> 3902d90905366f3e6eb134fcb833747b0e08e8d9
