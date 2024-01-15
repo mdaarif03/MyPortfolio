@@ -6,7 +6,7 @@
 }
 
 body {
-  /* background: var(--back_blue); */
+  background: var(--back_blue);
   color: black;
 }
 
@@ -80,7 +80,6 @@ nav a {
   width: 48%;
   color: rgb(255, 255, 255);
   text-align: center;
-  background-color: black;
 }
 
 .right {
