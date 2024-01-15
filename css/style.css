@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 :root {
   --dark-2: #161616;
   --text_blue: #3dcfd3;
@@ -125,9 +125,9 @@ nav a {
   margin-bottom: 10px;
 }
 
-.about-head span {
-  /* color: var(--text_blue); */
-}
+/* .about-head span {
+  color: var(--text_blue);
+} */
 
 .ab-text {
   width: 48%;
@@ -165,7 +165,6 @@ span img {
   height: 60px;
   /* border: 1px solid black; */
 }
-=======
 :root{
     --dark-2 : #161616;
     --text_blue : #3DCfd3;
@@ -275,10 +274,7 @@ nav a{
     margin-bottom: 10px;
 }
 
-.about-head span{
-    /* color: var(--text_blue); */
-    
-}
+
 
 .ab-text{
     width: 48%;
@@ -318,5 +314,3 @@ span img{
     height: 60px;
     /* border: 1px solid black; */
 }
-
->>>>>>> 3902d90905366f3e6eb134fcb833747b0e08e8d9
