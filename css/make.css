@@ -1,0 +1,167 @@
+
+@media only screen and (max-width: 400px) {
+  .a_slider-title {
+    font-size: 30px !important;
+  }
+
+  #a_slider{
+    padding-top: 14% !important;
+  }
+}
+.big_txt {
+  font-size: 65px;
+  opacity: 0.4;
+  padding-top: 50px;
+}
+
+
+#a_slider {
+  background-color: #161616;
+  padding: 6% 2%;
+  margin-top: -80px;
+  clip-path: polygon(0 15% , 100% 0 , 100% 100% , 0 100% );
+}
+
+#a_slider .container {
+  padding: 10px;
+}
+
+
+#a_slider .heading{
+  margin: 15px auto;
+}
+
+:root {
+  --pink: #5ad1f5;
+  --purple: #6aa1e0;
+  --head: #4cf3eb;
+}
+
+
+.big_txt:nth-child(odd) {
+  color: white !important;
+}
+
+body {
+  font-family: sans-serif;
+  color: #fff;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
+}
+
+
+.sliderText::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  /* background-image: linear-gradient(90deg, var(--pink), var(--purple)); */
+  mix-blend-mode: color;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  opacity: 1;
+}
+.overlay::before {
+  width: 400px;
+  background: red;
+  height: 500px;
+  position: absolute;
+  top: 0px;
+  left: 20px;
+}
+.overlay::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  /* background-image: linear-gradient(90deg, red, green); */
+  mix-blend-mode: color;
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  width: 100px;
+  height: 100%;
+  z-index: 1000;
+  opacity: 1;
+}
+
+/*a_slider*/
+
+#a_slider .a_slider-title {
+  font-size: 45px;
+  color: var(--head);
+}
+
+.a_slider-title span {
+  color: white;
+}
+
+
+
+@keyframes updown {
+  100% {
+    transform: translateY(-15px);
+  }
+}
+
+
+
+
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 450px;
+  margin: 0 auto;
+  /* color: #6b3681; */
+}
+.card .content-2 {
+  widows: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.card .sliderText {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.sliderText img{
+  height: 100%;
+}
+
+.card .content-2 a {
+  display: inline-block;
+  margin: 10px 10px 0;
+  padding: 5px 20px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+.swiper-container {
+  padding: 3px !important;
+}
+img {
+  max-width: 100%;
+}
+
