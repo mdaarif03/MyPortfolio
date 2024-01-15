@@ -1,12 +1,7 @@
 
-:root {
-  --dark-2: #161616;
-  --text_blue: #3dcfd3;
-  --back_blue: #06bcc2e7;
-}
 
 body {
-  background: var(--back_blue);
+/*   background: var(--back_blue); */
   color: black;
 }
 
@@ -54,11 +49,11 @@ nav a {
   text-decoration: none;
   color: aqua;
 }
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   nav {
-    background-color: white;
+    background-color: lightgreen;
   }
-} */
+}
 @media only screen and (max-width: 600px) {
   nav {
     overflow: hidden;
