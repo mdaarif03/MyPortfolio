@@ -1,7 +1,7 @@
 
 
 body {
-/*   background: var(--back_blue); */
+  background: var(--back_blue);
   color: black;
 }
 
@@ -51,7 +51,7 @@ nav a {
 }
 @media only screen and (max-width: 600px) {
   nav {
-    background-color: lightgreen;
+    background-color: rgb(66, 108, 245);
   }
 }
 @media only screen and (max-width: 600px) {
