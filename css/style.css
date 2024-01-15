@@ -54,11 +54,11 @@ nav a {
   text-decoration: none;
   color: aqua;
 }
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   nav {
     background-color: white;
   }
-}
+} */
 @media only screen and (max-width: 600px) {
   nav {
     overflow: hidden;
